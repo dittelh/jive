@@ -1,0 +1,134 @@
+@media screen and (max-width: 720px){
+    body{
+        margin: 0%;
+        background-color: #111111;
+    }
+    
+    #forsidebillede{
+        width: 100vw;
+    }
+
+    .flexbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 42vh;
+        align-items: center;
+    }
+
+    .knap{
+        background-color: #f3cb41;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .pclass{
+        font-weight: bold;
+        font-size: 135%;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+   /* nav begynder */
+    #logo{
+        height: 100px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .brand-title {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+    
+    .navbar-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .navbar-links li {
+        list-style: none;
+    }
+    
+    .navbar-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block;
+    }
+    
+    .navbar-links li:hover {
+        background-color: #555;
+    }
+    
+    .toggle-button {
+        position: absolute;
+        top: 35px;
+        right: 50px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+    }
+    
+    .toggle-button .bar {
+        height: 3px;
+        width: 60px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .toggle-button {
+        display: flex;
+        position: absolute;
+    }
+    
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .navbar-links li {
+        text-align: center;
+    }
+    
+    .navbar-links a {
+        padding: .5rem 1rem;
+    }
+    
+    .navbar-links.active {
+        display: flex;
+    }
+
+
+
+
+
+}

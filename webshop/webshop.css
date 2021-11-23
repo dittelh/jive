@@ -1,0 +1,169 @@
+@media screen and (max-width: 720px) {
+    
+    body{
+        background-color:#111111;
+        margin: 0%;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+    p{
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+    .flexbox{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 42vh;
+        
+    }
+
+    .produkt{
+        background-color: white;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .pris{
+        background-color: #f3cb41;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+
+    #h4{
+        margin: 0%;
+        text-align: center;
+        color: gray;
+        font-size: 120%;
+    }
+
+    .skrift{
+        font-size: 20px;
+        background-color: #f3cb41;
+        border-radius: 8px;
+    }
+
+    /* nav begynder */
+    #logo{
+        height: 100px;
+        margin: 0%;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#333;
+        color: white;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .brand-title{
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .navbar-links ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .navbar-links li{
+        list-style: none;
+    }
+
+    .navbar-links li a{
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block;
+    }
+
+    .navbar-links li:hover{
+        background-color: #555;
+    }
+
+    .toggle-button{
+        position: absolute;
+        top: 35px;
+        right: 50px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+
+    }
+
+    .toggle-button .bar{
+        height: 3px;
+        width: 60px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .toggle-button{
+        display: flex;
+        position: absolute;
+    }
+
+    .navbar-links{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .navbar-links a{
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    
+
+
+
+
+
+    /*Tilmeldknap der sidder i bunden af skærmen*/
+    #tilmeldknap{
+        padding: 13px;
+        background-color: #f3cb41;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    #tilmeldknap > a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+}
